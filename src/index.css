@@ -1,69 +1,43 @@
 body{
-  background-image: linear-gradient(rgb(189, 189, 246),pink,rgb(241, 229, 229));
-  height: 500px;
+  background-image: linear-gradient(rgb(152, 152, 248),rgb(250, 183, 194),rgb(245, 222, 222));
+  min-height: 500px;
   background-repeat: no-repeat;
-  margin: 0px;
 }
-h1{
-  text-align: center;
-  text-shadow: 3px 3px 3px aquamarine;
-}
-
-#but1{
-  background-color: aquamarine;
-  height: 40px;
-  border-radius: 20px;
-  cursor: pointer;
-}
-#but1:hover {
-  background-color: aqua;
-}
-#but2{
-  background-color: aquamarine;
-  height: 40px;
-  border-radius: 20px;
-  cursor: pointer;
-}
-#but2:hover {
-  background-color: aqua;
-}
-#func{
-  width: 350px;
-  height: 250px;
-  margin: 10px;
-  
-  background-color: aqua;
-  border-radius: 20px;
-  align-items: center;
-  border: 3px solid black;
-  
-}
-#para1{
+label {
   font-size: 25px;
-  text-align: center;
 }
-#p1 {
-  text-align: center;
+input{
+  height: 40px;
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: rgb(175, 248, 224);
 }
-#func1{
-  width: 350px;
-  height: 250px;
-  margin-top: 10px;
-  background-color: aqua;
+button{
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
   border-radius: 20px;
-  align-items: center;
-  border: 3px solid black;
-  
+  border: 2px solid black;
+  background-color: rgb(175, 248, 224);
+  margin-top: 20px;
 }
-#flex{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  
+#container{
+  margin: 30px;
+  width: 1000px;
+  min-height:fit-content;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: auto auto;
 }
-#box1{
-  align-items: center;
-}
-#box2{
-  align-items: center;
+#msg{
+  margin: 5px;
+  background-color: rgb(241, 154, 154);
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 40px;
+  width:450px;
+  padding-top: 20px;
+ margin: 10px;
 }
